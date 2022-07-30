@@ -6,7 +6,7 @@ import retrofit2.http.Query
 
 interface MoviesApi {
 
-    //https://api.nytimes.com/svc/movies/v2/reviews/all.json?&api-key=JLndTzt7lnjh5tmCfCZS9i4gfSbjghJq
+    //https://api.nytimes.com/svc/movies/v2/reviews/all.json?&api-key=YourApiKey
     @GET("reviews/all.json?")
     suspend fun getMovies(
         @Query("offset") offset: Int = 0,

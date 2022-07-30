@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
 
-    const val API_KEY = "JLndTzt7lnjh5tmCfCZS9i4gfSbjghJq"
+    const val API_KEY = "YourApiKey"
     private const val BASE_URL = "https://api.nytimes.com/svc/movies/v2/"
 
 
